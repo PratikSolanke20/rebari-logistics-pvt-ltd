@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rebari Logistics Pvt. Ltd.</title>
+  <link rel="icon" href="logo.png" type="image/png">
+  <meta name="description" content="Rebari Logistics Pvt. Ltd. - Trusted transportation and logistics solutions across India. Services include freight, warehousing, and 3PL logistics.">
+  <meta name="keywords" content="Logistics, Freight, Transportation, Warehousing, 3PL, Rebari Logistics, Supply Chain, Transport Company India">
+  <meta name="author" content="Rebari Logistics Pvt. Ltd.">
+  <meta property="og:title" content="Rebari Logistics - Transport Solutions">
+  <meta property="og:description" content="Trusted partner in logistics and freight management across India.">
+  <meta property="og:image" content="https://rebarilogistics.co.in/og-image.jpg">
+  <meta property="og:url" content="https://rebarilogistics.co.in">
+  <meta name="robots" content="index, follow">
+  <meta name="google-site-verification" content="ZibvqPg9EvRnGQJ3UAZkp6zo7fZQcc0Iyn3PVRnU5XI" />
+  <style>
+
+
+a:link {
+  color: #fcd17b; /* A deep blue for visited links */
+}
+
+a:visited {
+  color: #fcd17b; /* A deep blue for visited links */
+}
+
+a:hover {
+  color: #848eff; /* A lighter shade for hover effect */
+}
+
+a:active {
+  color: #ff0000; /* A deep blue for active links */
+}
+
+
+
+.scroll-fade {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.scroll-fade.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+.contact-us-section {
+  background-color: #f4f7fb;
+  padding: 40px 20px;
+  text-align: center;
+  color: #1e3a5f;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-us-section h2 {
+  font-size: 2.4rem;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #15396a;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-person {
+  background-color: #e1ebf9;
+  margin: 15px auto;
+  padding: 20px 25px;
+  border-radius: 12px;
+  max-width: 450px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+}
+
+.contact-person:hover {
+  background-color: #d0def7;
+}
+
+.contact-person a {
+  color: #214e82;
+  text-decoration: none;
+}
+
+.contact-person a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+.branches-section {
+  padding: 40px 20px;
+  background-color: #dbe9f9; /* A soft blue shade distinct but matching */
+  text-align: center;
+}
+
+.branches-section h2 {
+  font-size: 2.2rem;
+  color: #1a3d73;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.branches-list {
+  list-style-type: disc;
+  max-width: 400px;
+  margin: 0 auto 30px auto;
+  padding-left: 20px;
+  text-align: left;
+  color: #2c3e50;
+  font-size: 1.15rem;
+  line-height: 1.6;
+}
+
+.branches-btn {
+  background-color: #214e82;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.branches-btn:hover {
+  background-color: #16395c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+.terms-section {
+  padding: 40px 20px;
+  background-color: #f3f6f9; /* A light subtle background different from info & services */
+  text-align: center;
+}
+
+.terms-section h2 {
+  font-size: 2.2rem;
+  color: #214e82; /* A deeper blue to differentiate */
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.terms-section .card {
+  background: #e1ecf9; /* Light blue tone distinct from other sections */
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(33, 78, 130, 0.1);
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 25px 30px;
+  color: #16395c;
+  font-size: 1.1rem;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.terms-section .card ol {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.terms-section .card ol li {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+    
+    .branches-button {
+      display: space-between;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #004080;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+
+    .branches-button:hover {
+      background-color: #00264d;
+    }
+
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #004080;
+      color: #ffffff;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      letter-spacing: 2px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+  background-color: #003f87;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hamburger hidden by default */
+.hamburger {
+  font-size: 28px;
+  color: white;
+  display: none;
+  cursor: pointer;
+}
+
+/* Dropdown menu hidden by default */
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: #003f87;
+  padding: 10px;
+  list-style: none;
+  z-index: 10;
+  border: 1px solid white;
+}
+
+.mobile-menu li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 0;
+}
+
+/* MEDIA QUERY FOR MOBILE */
+@media (max-width: 768px) {
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .mobile-menu.show {
+    display: flex;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav-links {
+  text-align: center;
+}
+
+.show-always {
+  text-align: center;
+}
+
+.hide-on-mobile{
+  align-items: center;
+}
+
+
+    nav {
+      margin-top: 10px;
+    
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .hero {
+      background: url('bg2.png') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+      padding: 0 20px;
+      box-shadow: inset 0 0 0 1000px rgba(0, 64, 128, 0.6);
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    }
+
+    .hero p {
+      font-size: 1.3rem;
+      max-width: 700px;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+    }
+
+    .hero .cta-button {
+      margin-top: 25px;
+      background-color: #ffd700;
+      color: #004080;
+      font-weight: 700;
+      padding: 12px 25px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .hero .cta-button:hover {
+      background-color: #e6c200;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    section h3 {
+      text-align: center;
+      color: #004080;
+      margin-bottom: 40px;
+      font-size: 2rem;
+      letter-spacing: 1.5px;
+    }
+
+    .about,
+    .services {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      padding: 30px;
+      margin-bottom: 50px;
+    }
+
+    .about p {
+      font-size: 1.1rem;
+      color: #555;
+      max-width: 900px;
+      margin: 0 auto;
+      line-height: 1.8;
+    }
+
+    .services-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .service-item {
+      background: #e6f0ff;
+      border-radius: 8px;
+      flex: 1 1 250px;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,64,128,0.1);
+      transition: transform 0.3s ease;
+      cursor: default;
+    }
+
+    .service-item:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 20px rgba(0,64,128,0.2);
+    }
+
+    .service-item h4 {
+      color: #004080;
+      margin-bottom: 15px;
+      font-size: 1.3rem;
+    }
+
+    .service-item p {
+      color: #333;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+   
+
+    footer {
+      background: #004080;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+
+    .whatsapp-fixed {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+    }
+
+    .whatsapp-fixed a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #25D366;
+      color: white;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      font-size: 30px;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: background-color 0.3s ease;
+    }
+
+    .whatsapp-fixed a:hover {
+      background-color: #1ebd5a;
+    }
+
+    @media (max-width: 768px) {
+      .services-list {
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+
+
+
+    .logo-container {
+  position: absolute;
+  top: 10px;      /* Distance from the top */
+  left: 10px;    /* Distance from the right */
+  z-index: 1000;  /* Keep it above other elements */
+}
+
+.logo {
+  width: 60px;   /* Adjust size as needed */
+  height: auto;
+}
+
+
+
+
+
+
+
+.map-container {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+    }
+    iframe {
+      width: 90%;
+      height: 400px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+
+
+a :hover{
+  color: #e6c200;
+}
+
+
+
+
+
+
+
+
+    
+  </style>
+</head>
+<body>
+  <header>
+
+
+    <div class="logo-container" >
+      <img width="75 " src="logo.png" alt="">
+      
+    </div>
+
+
+
+
+
+    <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REBARI LOGISTICS PVT. LTD.</h1>
+    <nav class="navbar" style="margin: 0; padding: 0;">
+
+
+  <ul class="nav-links ">
+    <li class="show-always"><a href="index.html">Home</a></li>
+    <li class="show-always"><a href="service.html">Services</a></li>
+    <li class="show-always"><a href="Information.html">Information</a></li>
+    <li class="hide-on-mobile"><a href="Branches.html">Branches</a></li>
+    <li class="hide-on-mobile"><a href="Terms.html">Terms and Conditions</a></li>
+    <li class="hide-on-mobile"><a href="Documentation.html">Documentation</a></li>
+    <li class="hide-on-mobile"><a href="FAQ.html">FAQ</a></li>
+    <li class="hide-on-mobile"><a href="contact.html">Contact Us</a></li>
+    <li class="hide-on-mobile"><a href="location.html">Location on Map</a></li>
+  </ul>
+
+  <div class="hamburger "  id="hamburger">&#9776;</div>
+
+  <ul class="mobile-menu" id="mobileMenu">
+    <li><a href="Branches.html">Branches</a></li>
+    <li><a href="Terms.html">Terms and Conditions</a></li>
+    <li><a href="Documentation.html">Documentation</a></li>
+    <li><a href="FAQ.html">FAQ</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <li><a href="location.html">Location</a></li>
+  </ul>
+</nav>
+  </header>
+
+  <section id="hero" class="hero scroll-fade card" aria-label="Hero Section">
+    <h2>Reliable Transport Solutions</h2>
+    <p>Your trusted partner in logistics and freight management across the nation.</p>
+    <a href="https://tally.so/r/3N9rGO" class="cta-button">Submit Inquiry Order</a>
+    <a href="#contact" class="cta-button">Get in Touch</a>
+  </section>
+
+  <section id="about" class="about scroll-fade" aria-labelledby="about-title">
+    <h3 id="about-title">About Us</h3>
+    <p>
+      Rebari Logistics Private Limited<br><br>
+      Incorporated on 5th October 2011, Rebari Logistics Pvt. Ltd. (formerly Rebari Tempo Services) is a family-owned transportation and logistics company based in Maharashtra. Established in 1991, the company began operations in Aurangabad, Ahmednagar, and Pune, and has since grown into a trusted logistics partner, notably operating integrated Milk Run services for Bajaj Auto Ltd. across Waluj, Akurdi, Chakan, and Pune.<br><br>
+      Our sister concern, RTS Logistic Services Pvt. Ltd., also serves Mahindra & Mahindra Group across multiple locations.<br><br>
+      Led by Managing Director Mr. M.J. Rebari and Director Mr. F.J. Rebari, the company benefits from over two decades of expertise in road transport management. Their leadership has been instrumental in positioning Rebari Logistics as a leading name in the industry.<br><br>
+      <strong>Objective</strong><br>
+      Our goal is to provide reliable road, rail, and air logistics services to Indian industries, with a strong focus on customer satisfaction and employee welfare. We ensure dedicated customer support via customercare@rebarilogistics.co.in.<br><br>
+      <strong>Infrastructure</strong><br>
+      All offices are fully equipped with modern infrastructure, including landlines, internet, computers, and trained staff under the supervision of branch managers.
+    </p>
+
+  </section>
+
+
+
+  
+
+
+
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.scroll-fade').forEach(el => {
+    observer.observe(el);
+  });
+
+
+
+
+
+
+
+const hamburger = document.getElementById("hamburger");
+const mobileMenu = document.getElementById("mobileMenu");
+
+hamburger.addEventListener("click", () => {
+  mobileMenu.classList.toggle("show");
+});
+
+// Auto close mobile menu when a link is clicked
+const links = mobileMenu.querySelectorAll("a");
+links.forEach(link => {
+  link.addEventListener("click", () => {
+    mobileMenu.classList.remove("show");
+  });
+});
+
+
+
+
+
+
+
+
+
+
+</script>
+
+  
+
+
+  <footer>
+    &copy; 2025 <a  style="color: #ffbcbc; " href="https://www.linkedin.com/in/pratik-solanke-72591123b/">Pratik Solanke</a>. All rights reserved.
+  </footer>
+
+  <div class="whatsapp-fixed" id="message">
+    <a href="https://wa.me/918308846179" target="_blank" aria-label="Chat on WhatsApp">💬</a>
+  </div>
+
+  
+</body>
+</html>
